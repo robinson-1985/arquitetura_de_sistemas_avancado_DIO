@@ -1,0 +1,32 @@
+                    GERENCIAMENTO DE ERROS 
+
+Dead letter queue (Filas de re-tentativas);
+Monitoramento entre serviços;
+Ratreamento de fluxo.
+
+                    INCONSISTÊNCIA DE DADOS 
+
+WEB app -> Proxy HTTP -> adicionar cartão de crédito -> Serviço de Carteira -> Message
+Broker.
+
+WEB app -> Proxy HTTP -> adicionar plano -> Serviço de Carteira -> Message Broker.
+
+Message Broker -> Aquisição de plano -> serviço de cobrança -> banco de dados.
+
+E se antes da aquisição do plano, o cartão de crédito não consegue ser inserido?
+
+Então ocorre um Dead letter queue, e o banco de dados tenta reprocessar passando para 
+o Message Broker. 
+
+                    RASTREMANETO DE FLUXO 
+
+Web app -> Proxy HTTP -> Serviço 1 (Logs, logs, logs) -> Message Broker -> Serviço 2
+(logs, logs, logs) -> retorna para o Message Broker -> passa para o Serviço 3 (logs, 
+logs, logs)
+
+Logs serviço 1 - gera um tacker ID - no momento que entrar um request todos os logs se 
+transformar como metadata da mensagem e é bom colocar para gerar uma mensagem para 
+o serviço 2, assim por diante. 
+
+Assim, tenho vários logs que produz no Track ID origina no serviço, depois vai para o 
+2 e sucessivamente se tornam linkados e com transmissão de informações. 
