@@ -1,0 +1,30 @@
+            FUNDAMENTOS DE ARQUITETURA EM NUVEM
+
+             CLOUD COMPUTING
+
+- Gerenciamento de hardware/software;
+
+- Provedores de servidor e armazenamento;
+
+- Pague o que consumir,
+
+- Iaas / Paas /Baas. 
+
+                    Iass
+
+Infracstruture as a service
+
+Ex: Google Cloud, amazon web services, microsoft Azure
+
+                    Paas
+
+Platform as a service (provê os serviços que eu quero utilizar)
+
+Ex: Google Cloud, amazon web services, microsoft Azure, CloudFormation, Terraform.
+
+                    Baas 
+
+Backend as a service ou Mobile Backend as a Service.
+
+Ex: Firebase. 
+

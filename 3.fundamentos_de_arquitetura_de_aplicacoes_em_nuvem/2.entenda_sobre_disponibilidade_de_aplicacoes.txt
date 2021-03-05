@@ -1,0 +1,14 @@
+                    DISPONIBILIDADE
+
+- Iaas: hardware e internet;
+- Paas: auto scale on the go (um determinado momento do dia ou do anos teremos um maior
+acesso gerando maior demanda, então o provedor aumenta o número de máquinas 
+possibilitando atender a todos os clientes);
+- Baas: não há backend service (não tem a complexidade de lidar com backs).
+
+
+Kubernets (K8S)
+
+Multiplos nodos (numero mínimo de nodos: 3 nodos/ aplicação: 3 instâncias)
+
+Load balancer 

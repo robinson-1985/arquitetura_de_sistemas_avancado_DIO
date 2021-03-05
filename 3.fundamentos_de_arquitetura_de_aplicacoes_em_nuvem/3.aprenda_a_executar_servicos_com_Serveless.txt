@@ -1,0 +1,9 @@
+                        SERVELESS
+
+Sem servidor;
+
+Sem serviço "rodando"
+
+Sem down time 
+
+Vantagens - não ter que ficar cuidando do servidor.
