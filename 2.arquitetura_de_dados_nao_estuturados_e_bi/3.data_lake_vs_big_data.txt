@@ -1,1 +1,22 @@
-                
+                DATA LAKER OR BIG DATA?
+
+BI, Data Mining, Big Data e Data Lake são termos cada vez mais populares no mundo 
+dos negócios. Todos eles se referem ao uso de dados, mas cada um está ligado a uma 
+maneira diferente de se fazer isso.
+
+Business Intelligence, ou BI, é informar decisões do presente com dados históricos 
+para entender os padrões que mais beneficiaram uma empresa. Data Mining é minerar 
+os dados organizacionais para obter análises cada vez mais precisas. Já Big Data se 
+refere a trabalhar com grandes conjuntos de dados. O Data Lake está relacionado a um 
+tipo de repositório em que os arquivos são organizados em seus formatos originais para 
+que possam ser utilizados pela empresa junto a essas tecnologias.
+
+Todos esses recursos, usados de maneira independente ou combinada, ajudam a sua 
+empresa a ser mais assertiva e compõem o Data Analytics.
+
+                     DATA LAKE 
+
+É um repositório imenso de informações que eu tenho dentro da minha empresa ou 
+organização. Dentro do ecossistema do Bg Data terei a extração desses dados. 
+
+Exemplo prático com o MongoDB. 

@@ -20,7 +20,7 @@ dados são permitidos pelos utilizadores.
 
                             OLAP
 
-On-liene Analytcal Processing
+On-line Analytcal Processing
 
 - aplicação: nível estratégico, auxilia na análise empresarial e tomada de decisões;
 - funcionalidade: gera análises e relatórios gerenciais com leitura otimizada;

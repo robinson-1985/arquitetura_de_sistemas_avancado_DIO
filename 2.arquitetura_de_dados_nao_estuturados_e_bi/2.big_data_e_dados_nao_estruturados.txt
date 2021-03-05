@@ -5,7 +5,7 @@ não - estruturados.
 
 O Big Data contém formatos diversos de informações onde podemos extrair os dados. 
 
-                    DADOS ESTRTURADOS 
+                    DADOS ESTRUTURADOS 
 
 PRODUTO                     PRODUTO            PRODUTO 
 Codigo(PK)    ->>           Codigo(PK)  ->>    Codigo(PK)
