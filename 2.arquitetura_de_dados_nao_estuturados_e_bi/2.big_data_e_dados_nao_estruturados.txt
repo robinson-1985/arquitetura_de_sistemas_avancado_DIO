@@ -1,0 +1,47 @@
+                    O QUE É BIG DATA?
+
+Big Data é um termo que descreve o grande volume de dados - tanto estruturados quanto 
+não - estruturados. 
+
+O Big Data contém formatos diversos de informações onde podemos extrair os dados. 
+
+                    DADOS ESTRTURADOS 
+
+PRODUTO                     PRODUTO            PRODUTO 
+Codigo(PK)    ->>           Codigo(PK)  ->>    Codigo(PK)
+Descrição                   Descrição          Descrição
+Preço                       Preço              Preço
+Cor                         Cor                Tamanho
+                            Tamanho
+
+
+Observa acima que temos que fazer uma alteração para colocar ou tirar dados.
+
+                    DAMOS SEMI-ESTRUTURADOS 
+
+XML. RDF, OWL, JSON são pequenas estrutras de dados semi-estruturados.
+
+JSOn -->> NoSQL Databases. 
+
+Um Json pode ter vários Json dentro dele que formam uma coleção de informações. 
+
+
+                BANCO DE DADOS DO NoSQL 
+
+EXEMPLOS: Cassandra, Riak, Momgo DB, Redis, Apache HBASE, entre outros. 
+
+Eles são separados por especificações como:
+
+- Key-value Store
+- Wide Column Store 
+- Document Store 
+- Graph Store. 
+
+                        DADOS NÃO ESTRUTURADOS 
+
+É a coleção de vários tipos de informações estruturadas, semi-estruturadas que vem de 
+redes sociais, dispositivos, entre outros que vai muito além das informações contidas
+no sitema. 
+
+Exemplos: hadoop, Presto, Apache Storm, DataTorrent, Ceph, Hofs, Google BigQuery.
+

@@ -1,1 +1,29 @@
-                    
+                    ARQUITETURAS DE DADOS NÃO ESTRUTURADOS E BI  
+
+                    BI EM MODELOS DE DADOS 
+
+                            BI - BUSINESS INTELLLIGENCE
+
+O BI é composto basicamento por:
+
+Ferramentas, 
+Infraestrutura,
+Profissionais(corpo técnico),
+Dados. 
+
+                        BI DATA 
+De onde vem os dados?
+
+Dados gerencias -> BI Data
+SGDB (Dados da Operação) -> BI Data
+Pesquisa de campo -> Data 
+Indicadores de mercado -> BI Data 
+
+                        BI SOLUTION
+
+Infraestrutura ->> gerenciamento dos dados ->> Analytcs ->> Compartilhamento ->>
+Ferramentas gerais. 
+
+
+Exemplos de ferramentas de BI: Oracle, Power BI, SAS, SAP BusinessObjects, Sense, DOMO,
+Power BI, SpotFire, Tableau, entre outras. 

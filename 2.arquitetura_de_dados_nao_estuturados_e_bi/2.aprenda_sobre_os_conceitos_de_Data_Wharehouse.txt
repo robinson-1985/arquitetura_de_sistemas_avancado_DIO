@@ -1,0 +1,44 @@
+                    DATA WAREHOUSE 
+
+                            OLTP 
+
+On line Transaction Processing
+
+Dados voláteis, passíveis de modificação. 
+
+Baseado em transações 
+
+- aplicação: nível operacional da empresa;
+- funcionalidade: alta velocidade, porém não ideal para análises gerenciais;
+- estrutura de dados: têm elevado nível de detalhamento;
+- armazenamento dos dados: feito por meios convencionais (sem utilizar software 
+específico);
+- usuários: técnicos, analistas e outros colaboradores;
+- frequência de utilização: diariamente;
+- volatilidade: dados alteram constantemente, a inserção, modificação e exclusão de 
+dados são permitidos pelos utilizadores.
+
+                            OLAP
+
+On-liene Analytcal Processing
+
+- aplicação: nível estratégico, auxilia na análise empresarial e tomada de decisões;
+- funcionalidade: gera análises e relatórios gerenciais com leitura otimizada;
+- estrutura de dados: poucos detalhes, pois tem alto nível de sumarização;
+- armazenamento dos dados: utiliza-se da Data Warehouse para otimizar o desempenho da 
+grande quantidade de dados;
+- usuários: destinados aos gestores;
+- frequência de utilização: baixa, semanal, mensal ou anualmente, conforme programação 
+da empresa;
+- volatilidade: dados não sofrem alterações, pois os usuários apenas realizarão sua 
+leitura.
+
+                        DATA WAREHOUSE
+
+Um data warehouse centraliza e consolida grandes quantidades de dados de várias fontes.
+Seus recursos analíticos permitem que as organizações obtenham informações de negócios
+úteis de seus dados para melhorar a tomada de decisões.
+
+
+
+
