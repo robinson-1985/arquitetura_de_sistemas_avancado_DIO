@@ -1,0 +1,15 @@
+                    CODE QUALITY ANLYSIS CONTINUOUS INSPECTION
+
+                            PRINCIPAIS FERRAMENTAS
+
+sonarqube
+code climate
+codacy
+
+Nunca fazer código com complexidade ciclomática(Parece uma escama de peixe enorme)
+Essas ferramentas ajudam a ver código duplicado. 
+
+Ter vulnerabilidades/code smell - por exemplo expor a senha junto com o código, isso 
+não é uma boa prática. 
+
+Padronização e estilo - as ferramentas ajudam nesse quesito. 
