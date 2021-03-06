@@ -1,0 +1,138 @@
+                      CI/CD 
+
+                CONTINUOUS INTEGRATION
+
+Explicação da integração contínua
+
+A integração contínua é uma prática de desenvolvimento de software de DevOps em que 
+os desenvolvedores, com frequência, juntam suas alterações de código em um repositório 
+central. Depois disso, criações e testes são executados. Geralmente, a integração 
+contínua se refere ao estágio de criação ou integração do processo de lançamento de 
+software, além de originar um componente de automação (ex.: uma CI ou serviço de 
+criação) e um componente cultural (ex.: aprender a integrar com frequência).
+Os principais objetivos da integração contínua são encontrar e investigar bugs mais 
+rapidamente, melhorar a qualidade do software e reduzir o tempo que leva para validar 
+e lançar novas atualizações de software.
+
+Por que a integração contínua é necessária?
+No passado, os desenvolvedores de uma equipe podiam trabalhar isoladamente por um 
+longo período e só juntar suas alterações à ramificação mestre quando concluíssem 
+seu trabalho. Dessa forma, a junção das alterações de códigos era difícil e demorada, 
+além de resultar no acúmulo de erros sem correção por longos períodos. Estes fatores 
+dificultavam uma distribuição de atualizações rápida para os clientes.
+
+Como funciona a integração contínua?
+Com a integração continuada, os desenvolvedores frequentemente confirmam um 
+repositório compartilhado usando um sistema de controle de versão, como o Git.
+Antes de cada confirmação, os desenvolvedores podem escolher executar testes 
+de unidade locais em seus códigos como uma camada de verificação extra anterior 
+à integração. Um serviço de integração contínua cria e executa automaticamente 
+testes de unidade nas novas alterações de código para destacar imediatamente 
+todos os erros.
+
+Integração e distribuição contínuas
+A integração contínua é referente aos estágios de criação e teste de unidade do 
+processo de lançamento de software. Cada revisão confirmada aciona criação e 
+teste automatizados.
+
+Com a distribuição contínua, as alterações de código são criadas, testadas e 
+preparadas automaticamente para que a produção seja liberada. A distribuição 
+contínua expande com base na integração contínua ao implantar todas as 
+alterações de código em um ambiente de teste e/ou ambiente de produção, após 
+o estágio de criação.
+ 
+                PRINCIPAIS FERRAMENTAS 
+
+circleci
+AppVeyor
+GitLab CI 
+Jenkins
+Travis CI 
+Azure Pipelines
+
+                        Pipelines 
+
+Um pipeline de implantação é uma manifestação automatizada do seu processo para 
+levar o software do controle de versão para as mãos de seus usuários. Todo o 
+processo – do conceito ao dinheiro – pode ser modelado como um mapa de fluxo de 
+valor. Envolve os processos de:
+
+Integração Contínua
+Entrega Contínua
+Implantação Contínua
+
+Criando um pipeline de implementação:
+
+1.Modelar o fluxo de valor, criando um esqueleto do processo
+2.Automatizar os processos de compilação e testes
+3.Automatizar os processos de implantação
+4.Implantar a estratégia de entrega de versão
+
+CI (CONTINUOUS INTEGRATION)
+
+São práticas que encorajam os desenvolvedores a integrar o seu trabalho 
+continuamente – um novo código fonte (branch ou trunk) ao principal (main). 
+Permite ajustes frequentes nos códigos, entregas rápidas e com menos bug. 
+Há três coisas que você precisa estar ciente antes de CI:
+
+Controle de versão
+Build automatizado
+Acordo do time
+Alguns pré-requisitos da CI:
+
+Check in frequente
+Suíte de testes abrangente
+Manter o processo de Build e Teste curto
+Gerenciando seu workspace de desenvolvimento
+CI é uma prática, não uma ferramenta, e por isso, depende da disciplina para 
+torna-la efetiva. Algumas práticas recomendadas para as equipes:
+
+Builds devem passar no coffee test (menos de 5 minutos)
+Não fazer check in de build com falha
+Sempre execute todos os testes de confirmação antes do commit
+Não vá embora com um build quebrado
+Esteja sempre preparado para reverter a revisão anterior
+Defina um time box antes de reverter (por exemplo: 10 minutos se não obtiver 
+a solução, reverter a revisão anterior)
+Test-Driven Development
+Jez Humble: “The goal of continuous integration is that software is in a working 
+state all the time”.
+
+                            CONTINUOUS DELIVERY
+
+É uma extensão do CI para garantir que novas modificações estejam disponíveis 
+para serem implementadas no ambiente de produção.  Os testes e o processo de 
+liberação são automatizados e contribuem com o controle de qualidade para 
+prover feedbacks rápidos aos desenvolvedores.
+
+O deploy para produção não é automático, porém pode ser realizado a qualquer
+momento, dependendo do aceite da alteração (com o clique de um botão).
+
+Boas práticas:
+
+Build somente uma vez o artefato (rebuild – passará novamente por todos os 
+ambientes; quebrará sua auditoria)
+Artefatos devem ser imutáveis (armazenados com restrição de permissão). Manter 
+os acessos de deployers somente onde deve ter acesso
+Duas boas razões para ser imutáveis: a) cria confiança entre o time b) ser 
+rastreável (poder verificar versões específicas, etc.)
+Deployment deve ir para uma cópia de produção; pare o deploy se uma etapa anterior 
+falhar
+Deployments devem ser idempotente
+Métricas do seu pipeline:
+
+Você é capaz de auditar uma simples mudança?
+Quão rápido você pode mover uma mudança para produção?
+(overall cycle time)
+Cycle time = do check-in até produção
+CONTINUOUS DEPLOYMENT
+Processo sem intervenção humana, realizando todas as validações anteriores 
+para disponibilizar a nova modificação em produção automaticamente. Somente 
+uma falha encontrada nos testes impede a implementação em produção.
+
+Neste processo é muito importante validar com a área de segurança da informação 
+e compliance da sua empresa a aplicabilidade deste processo. Em operações críticas
+que trabalham com deploys contínuos (dezenas, centenas ou milhares por dia), torna-se 
+inviável gerenciar este processo sem ter a implantação do Continuous Deployment.
+
+
